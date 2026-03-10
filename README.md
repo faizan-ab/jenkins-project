@@ -33,6 +33,60 @@ This project simulates a real-world enterprise DevOps architecture.
 
 ![Architecture](screenshots/architecture.png)
 
+```
+                +-------------+
+                | Developer   |
+                +------+------+
+                       |
+                       v
+                +-------------+
+                |   GitHub    |
+                +------+------+
+                       |
+                       v
+                +-------------+
+                |   Jenkins   |
+                +------+------+
+                       |
+       +---------------+----------------+
+       |                                |
+       v                                v
++--------------+                +--------------+
+|  SonarQube   |                |    Trivy     |
++------+-------+                +------+-------+
+       |                               |
+       +---------------+---------------+
+                       |
+                       v
+                +-------------+
+                |   Maven     |
+                +------+------+
+                       |
+                       v
+                +-------------+
+                |   Docker    |
+                +------+------+
+                       |
+                       v
+                +-------------+
+                |    Nexus    |
+                +------+------+
+                       |
+                       v
+                +-------------+
+                |     EKS     |
+                +------+------+
+                       |
+                       v
+        +--------------+--------------+
+        |                             |
+        v                             v
++---------------+             +--------------+
+|  Prometheus   |             |   Grafana    |
++---------------+             +--------------+
+
+```
+
 Flow:
 
 GitHub → Jenkins → Maven → SonarQube → Trivy → Docker → DockerHub → EKS → LoadBalancer → User
