@@ -133,35 +133,51 @@ Dashboards:
 
 Jenkins Pipeline
 
-![Jenkins](screenshots/jenkins.png)
+Development Deployment 
+
+![Dev](screenshots/jenkins.png)
+
+Production Deployment
+
+![Prod](screenshots/prod.png)
 
 SonarQube
 
 ![Sonar](screenshots/sonar.png)
 
-Trivy Scan
-
-![Trivy](screenshots/trivy.png)
-
 DockerHub
 
 ![Docker](screenshots/dockerhub.png)
-
-Nexus
-
-![Nexus](screenshots/nexus.png)
-
-Grafana
-
-![Grafana](screenshots/grafana.png)
 
 EKS Nodes
 
 ![EKS](screenshots/eks.png)
 
+### Kubernetes Pods
+
+![Pods](screenshots/pods.png)
+
+### LoadBalancer Service
+
+![Service](screenshots/Service-LoadBalancer.png)
+
+Grafana
+
+![Grafana](screenshots/node.jpeg)
+
+Grafana Workload
+
+![Grafana Workload](screenshots/kubernetes-ns-workload.jpeg)
+
 Application Running
 
-![App](screenshots/app.png)
+![App](screenshots/app1.png)
+
+![App](screenshots/app2.png)
+
+Nexus
+
+![Nexus](screenshots/nexus-dashboard.png)
 
 ---
 
