@@ -228,6 +228,7 @@ helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
 Faizan
 
 DevOps Engineer
+
 AWS • Kubernetes • Jenkins • Docker • Monitoring
 
 ---
