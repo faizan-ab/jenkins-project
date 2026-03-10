@@ -9,6 +9,8 @@ Production-Grade DevOps Project with Jenkins • SonarQube • Trivy • Docker 
 <img src="https://img.shields.io/badge/Prometheus-Metrics-yellow?style=for-the-badge&logo=prometheus"/>
 <img src="https://img.shields.io/badge/Grafana-Monitoring-orange?style=for-the-badge&logo=grafana"/></p>---
 
+---
+
 📌 Overview
 
 This project demonstrates a Production-Grade End-to-End DevOps CI/CD Pipeline deployed on AWS using EKS.
@@ -29,7 +31,7 @@ This project simulates a real-world enterprise DevOps architecture.
 
 🧠 Architecture
 
-"Architecture" (screenshots/architecture.png)
+![Architecture](screenshots/architecture.png)
 
 Flow:
 
@@ -87,9 +89,7 @@ Jenkins Pipeline Stages
 
 faizanab/mission:latest
 
-DockerHub:
-
-https://hub.docker.com/r/faizanab/mission
+DockerHub: https://hub.docker.com/r/faizanab/mission
 
 ---
 
@@ -133,35 +133,35 @@ Dashboards:
 
 Jenkins Pipeline
 
-"Jenkins" (screenshots/jenkins.png)
+![Jenkins](screenshots/jenkins.png)
 
 SonarQube
 
-"Sonar" (screenshots/sonar.png)
+![Sonar](screenshots/sonar.png)
 
 Trivy Scan
 
-"Trivy" (screenshots/trivy.png)
+![Trivy](screenshots/trivy.png)
 
 DockerHub
 
-"Docker" (screenshots/dockerhub.png)
+![Docker](screenshots/dockerhub.png)
 
 Nexus
 
-"Nexus" (screenshots/nexus.png)
+![Nexus](screenshots/nexus.png)
 
 Grafana
 
-"Grafana" (screenshots/grafana.png)
+![Grafana](screenshots/grafana.png)
 
 EKS Nodes
 
-"EKS" (screenshots/eks.png)
+![EKS](screenshots/eks.png)
 
 Application Running
 
-"App" (screenshots/app.png)
+![App](screenshots/app.png)
 
 ---
 
