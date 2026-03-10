@@ -7,7 +7,7 @@ Production-Grade DevOps Project with Jenkins • SonarQube • Trivy • Docker 
 <img src="https://img.shields.io/badge/SonarQube-Code%20Quality-green?style=for-the-badge&logo=sonarqube"/>
 <img src="https://img.shields.io/badge/Trivy-Security-red?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Prometheus-Metrics-yellow?style=for-the-badge&logo=prometheus"/>
-<img src="https://img.shields.io/badge/Grafana-Monitoring-orange?style=for-the-badge&logo=grafana"/></p>---
+<img src="https://img.shields.io/badge/Grafana-Monitoring-orange?style=for-the-badge&logo=grafana"/></p>
 
 ---
 
@@ -147,17 +147,17 @@ SonarQube
 
 DockerHub
 
-![Docker](screenshots/dockerhub.png)
+![Docker](screenshots/dockerhub.jpeg)
 
 EKS Nodes
 
-![EKS](screenshots/eks.png)
+![EKS](screenshots/nodes.png)
 
-### Kubernetes Pods
+Kubernetes Pods
 
 ![Pods](screenshots/pods.png)
 
-### LoadBalancer Service
+LoadBalancer Service
 
 ![Service](screenshots/Service-LoadBalancer.png)
 
@@ -204,13 +204,21 @@ helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
 ✅ Features
 
 ✔ Automated CI/CD
+
 ✔ Code Quality Check
+
 ✔ Security Scan
+
 ✔ Docker Build
+
 ✔ Kubernetes Deploy
+
 ✔ AWS EKS
+
 ✔ Monitoring Dashboard
+
 ✔ LoadBalancer Access
+
 ✔ Production Architecture
 
 ---
